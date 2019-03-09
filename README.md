@@ -27,7 +27,7 @@ In technical terms, this is the crontab task:
 */5 * * * * <some directory>/watcher/watcher.sh 1><some directory>/watcher/run.log 2>&1
 
 But I am not satisfied with the cost of the work of this tool:
-1) I have to generate large enough array of hand-marked data
+1) I have to generate large enough array of hand-marked data (warm_cache.sh make_training_set.sh)
 2) I have to keep up to date information in those array by constantly adding to this array new data on the bad-state of the DB, after newly occurring incidents
 
 So I abandoned this project
